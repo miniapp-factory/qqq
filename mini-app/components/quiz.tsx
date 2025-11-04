@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import Share from "@/components/share";
-import { title, description, url } from "@/lib/metadata";
+import { Share } from "@/components/share";
+import { url } from "@/lib/metadata";
 
 const questions = [
   {
