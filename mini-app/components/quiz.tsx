@@ -117,7 +117,6 @@ export default function Quiz() {
           />
           <Share
             text={`I just found out I'm most similar to ${result}! Check it out: ${url}`}
-            url={url}
             className="mt-4"
           />
         </div>
